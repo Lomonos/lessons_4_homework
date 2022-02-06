@@ -1,0 +1,85 @@
+@import "null.css";
+/*подкл через гугл фонс*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+/*подкл скачаный шрифт с другого источника*/
+@font-face {
+	font-family: "Zen Kaku Gothic New";
+	src: url("../fonts/ZenKakuGothicNew-Black.woff2") format("woff2"), url("../fonts/ZenKakuGothicNew-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+/*подкл скачаный шрифт с другого источника*/
+@font-face {
+	font-family: "Zen Kaku Gothic New";
+	src: url("../fonts/ZenKakuGothicNew-Medium.woff2") format("woff2"), url("../fonts/ZenKakuGothicNew-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* стиль сss для стати */
+h1 {
+	font-family: Arimo, sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 4px 3px 6px green, 6px 5px 6px red;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.list {
+	text-decoration: underline;
+	color: tomato;
+	letter-spacing: 10px;
+}
+.list2 {
+	font-family: "Zen Kaku Gothic New";
+	font-weight: 900;
+	text-decoration: underline;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	color: green;
+	text-shadow: 3px 1px 2px #000;
+	font-family: Lato, sans-serif;
+	text-align: right;
+	line-height: 3.5;
+	font-size: 20px;
+	word-spacing: 20px;
+}
+h2 {
+	font-family: "Lato", "Zen Kaku Gothic New", space-between;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-shadow: 5px 3px 5px yellowgreen, 3px 5px 4px violet;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+}
+p {
+	text-decoration: overline;
+	font-family: "Arimo", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: right;
+	color: darkblue;
+}
+span {
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	color: darkred;
+	font-weight: 400;
+	text-shadow: 1px 4px 3px yellow, 3px 3px 5px mediumaquamarine;
+}
+p.lorem {
+	font-size: 23px;
+	color: orangered;
+	text-shadow: 5px 5px 6px rgba(178, 34, 34, 0.425);
+}
+p.lorem2 {
+	font-family: "Zen Kaku Gothic New", sans-serif;
+	font-weight: 900;
+	color: whitesmoke;
+	text-shadow: 6px 4px 5px brown, 2px 3px 4px fuchsia;
+}
